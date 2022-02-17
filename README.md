@@ -7,7 +7,11 @@ Clone the repo, run `npm run dev`, and open <http://localhost:3000> to see the r
 
 This [Next.js](https://nextjs.org/) project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Made with NextJS 12.0.10 and React 17.0.2.
+
 ## Resources
+
+<!-- markdownlint-disable MD030 -->
 
 -   <https://github.com/vercel/next.js/tree/canary/examples/with-web-worker>
 -   <https://file-translate.com/en/blog/nextjs-with-web-worker> (outdated but still useful)

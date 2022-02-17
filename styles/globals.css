@@ -5,3 +5,10 @@
 a {
 	@apply text-blue-400 hover:text-blue-600;
 }
+
+button {
+	@apply m-1 rounded-sm border border-neutral-400 bg-neutral-600 p-2;
+}
+p {
+	@apply p-1;
+}
