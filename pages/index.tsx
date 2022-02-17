@@ -10,12 +10,11 @@ const Home: NextPage = () => {
 				<meta name="description" content="NextJS TypeScript WebWorker Testing" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main className="p-4 flex flex-wrap justify-center">
+			<main className="flex flex-wrap items-center justify-center gap-4 p-4 text-center">
 				<h1 className="text-4xl">
-					Welcome to{" "}
-					<Link href="https://github.com/discretegames/nextjs-ts-webworker-test">
-						nextjs-ts-webworker-test
-					</Link>
+					Testing TypeScript WebWorker in NextJS (
+					<Link href="https://github.com/discretegames/nextjs-ts-webworker-test">source</Link>) (
+					<Link href="https://nextjs-ts-webworker-test.vercel.app/">demo site</Link>)
 				</h1>
 			</main>
 		</div>

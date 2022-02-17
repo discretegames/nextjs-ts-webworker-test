@@ -6,3 +6,8 @@ Head to <https://nextjs-ts-webworker-test.vercel.app> to see the result in produ
 Clone the repo, run `npm run dev`, and open <http://localhost:3000> to see the result locally.
 
 This [Next.js](https://nextjs.org/) project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Resources
+
+-   <https://github.com/vercel/next.js/tree/canary/examples/with-web-worker>
+-   <https://file-translate.com/en/blog/nextjs-with-web-worker> (outdated but still useful)
