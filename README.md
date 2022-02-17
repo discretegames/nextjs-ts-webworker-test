@@ -15,3 +15,5 @@ Made with NextJS 12.0.10 and React 17.0.2.
 
 -   <https://github.com/vercel/next.js/tree/canary/examples/with-web-worker>
 -   <https://file-translate.com/en/blog/nextjs-with-web-worker> (outdated but still useful)
+-   <https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers>
+-   <https://developer.mozilla.org/en-US/docs/Web/API/Worker/message_event>

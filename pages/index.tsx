@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import SeparateAPI from "../components/SeparateAPI";
 import Timer from "../components/Timer";
 import VercelExample from "../components/VercelExample";
-
 const Home: NextPage = () => {
 	return (
 		<div>
@@ -20,6 +20,7 @@ const Home: NextPage = () => {
 				</h1>
 				<Timer />
 				<VercelExample />
+				<SeparateAPI />
 			</main>
 		</div>
 	);
