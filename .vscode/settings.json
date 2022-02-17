@@ -1,0 +1,9 @@
+{
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.codeActionsOnSave": {
+		"source.sortImports": true
+		// "source.organizeImports": true
+	}
+}

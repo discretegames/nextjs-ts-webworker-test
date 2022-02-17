@@ -1,0 +1,10 @@
+{
+	"configurations": [
+		{
+			"name": "npm run dev",
+			"type": "f5anything",
+			"request": "launch",
+			"command": "npm run dev"
+		}
+	]
+}
