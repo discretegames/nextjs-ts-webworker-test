@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import { ReactNode } from "react";
+import Timer from "../components/Timer";
 import VercelExample from "../components/VercelExample";
 
 const Home: NextPage = () => {
@@ -18,6 +18,7 @@ const Home: NextPage = () => {
 					<Link href="https://github.com/discretegames/nextjs-ts-webworker-test">source</Link>) (
 					<Link href="https://nextjs-ts-webworker-test.vercel.app/">demo site</Link>)
 				</h1>
+				<Timer />
 				<VercelExample />
 			</main>
 		</div>
