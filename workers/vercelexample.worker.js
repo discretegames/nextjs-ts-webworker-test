@@ -2,5 +2,5 @@
 import pi from "../util/pi";
 
 addEventListener("message", (event) => {
-	postMessage(pi(event.data));
+	postMessage("js: " + pi(event.data));
 });
