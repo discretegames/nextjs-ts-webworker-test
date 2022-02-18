@@ -10,6 +10,7 @@ export const SeparateAPI = () => {
 	const clear = () => setResult("<cleared result>");
 
 	const callWorker1 = () => {
+		clear();
 		const api = new WorkerAPI1();
 		api.doWork(limit).then((result) => {
 			console.log("got result from API 1", result);
@@ -26,6 +27,7 @@ export const SeparateAPI = () => {
 	}, []);
 
 	const callWorker2 = () => {
+		clear();
 		workerAPI2Ref.current?.doWork(limit).then((result) => {
 			console.log("got result from API 2", result);
 			setResult(result);

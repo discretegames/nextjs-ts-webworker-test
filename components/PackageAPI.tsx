@@ -25,6 +25,7 @@ export const PackageAPI = () => {
 	}, []);
 
 	const callWorker = () => {
+		clear();
 		workerAPI.current?.doWork(limit).then((result) => {
 			console.log("got result from PackageWorkerAPI", result);
 			setResult(result);
