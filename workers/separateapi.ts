@@ -1,6 +1,6 @@
 // Similar to Vercel example but worker is created in this api file rather than in the React code
 
-/** In workerAPI1 a new worker is spawned every time and terminated once done. Probably a bad way to do it. */
+/** In WorkerAPI1 a new worker is spawned every time and terminated once done. Probably a bad way to do it. */
 export class WorkerAPI1 {
 	private worker: Worker | null = null;
 
@@ -32,7 +32,7 @@ export class WorkerAPI1 {
 	}
 }
 
-/** In workerAPI2 a persistent worker is used. Meant for use with useRef. Maybe a better way to do it? */
+/** In WorkerAPI2 a persistent worker is used. Meant for use with useRef. Probably a better way to do it. */
 export class WorkerAPI2 {
 	private worker: Worker;
 

@@ -52,7 +52,7 @@ export const VercelExample = () => {
 			}
 		>
 			<div>
-				<p>Module web worker in JS and TS. Calculates pi.</p>
+				<p>Module web worker in JS and TS.</p>
 				<button onClick={handleWorkJS}>Calculate PI (JS Worker)</button>
 				<button onClick={handleWorkTS}>Calculate PI (TS Worker)</button>
 				<button onClick={clear}>Clear</button>
