@@ -1,6 +1,8 @@
 # [nextjs-ts-webworker-test](https://github.com/discretegames/nextjs-ts-webworker-test) ([demo site](https://nextjs-ts-webworker-test.vercel.app/))
 
 This is a test project for getting web workers (and module web workers) written in TypeScript working in NextJS.
+It tests workers that are built into the NextJS project, and ones imported from
+[an NPM package](https://www.npmjs.com/package/@discretegames/nextjs-ts-webworker-package).
 
 Head to <https://nextjs-ts-webworker-test.vercel.app> to see the result in production.  
 Clone the repo, run `npm run dev`, and open <http://localhost:3000> to see the result locally.

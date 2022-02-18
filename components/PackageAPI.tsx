@@ -1,4 +1,4 @@
-import { PackageWorkerAPI } from "@discretegames/nextjs-ts-webworker-package";
+import type { PackageWorkerAPI } from "@discretegames/nextjs-ts-webworker-package";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import Container from "./Container";
@@ -13,7 +13,14 @@ export const PackageAPI = () => {
 
 	// Set up worker API on mount
 	useEffect(() => {
-		workerAPI.current = new PackageWorkerAPI();
+		/* Plain `workerAPI.current = new PackageWorkerAPI();` works on localhost when uncommented in realtime,
+		 * but not when started uncommented from scratch? Get error: "SyntaxError: Unexpected token 'export'
+		 * This error happened while generating the page. Any console logs will be displayed in the terminal window."
+		 * The solution used here of only importing the type above and doing a dynamic import below seems to work. */
+		(async () => {
+			const pkg = await import("@discretegames/nextjs-ts-webworker-package");
+			workerAPI.current = new pkg.PackageWorkerAPI();
+		})();
 		return () => workerAPI.current?.end();
 	}, []);
 
