@@ -21,6 +21,7 @@ const Home: NextPage = () => {
 				<Timer />
 				<VercelExample />
 				<SeparateAPI />
+				<Link href="/other">Other Page</Link>
 			</main>
 		</div>
 	);

@@ -3,7 +3,7 @@ import pi from "../util/pi";
 
 const doesWork = (data: number) => {
 	console.log("Separate API doing work");
-	return pi(data) + " and " + JSON.stringify(testZip([5, 5, 5], [7, 7, 7]));
+	return pi(data) + " and " + JSON.stringify(testZip());
 };
 
 const caller = (event: MessageEvent) => {

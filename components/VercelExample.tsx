@@ -25,7 +25,7 @@ export const VercelExample = () => {
 			console.log("worker result:", evt.data);
 			setResult(evt.data);
 		};
-		return () => workerRefJS.current?.terminate();
+		return () => workerRefTS.current?.terminate();
 	}, []);
 
 	const handleWorkJS = useCallback(async () => {
