@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import PackageAPI from "../components/PackageAPI";
+import QueueTest from "../components/QueueTest";
 import SeparateAPI from "../components/SeparateAPI";
 import Timer from "../components/Timer";
 import VercelExample from "../components/VercelExample";
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
 				<VercelExample />
 				<SeparateAPI />
 				<PackageAPI />
+				<QueueTest />
 				<Link href="/other">Other Page</Link>
 			</main>
 		</div>
